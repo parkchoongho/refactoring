@@ -1,0 +1,1 @@
+const customerName = site.customer.name;
