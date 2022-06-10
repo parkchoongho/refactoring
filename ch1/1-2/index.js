@@ -6,9 +6,7 @@ function statement(invoice, plays) {
     result += `${playFor(perf).name}: ${usd(doAmountFor(perf))} (${perf.audience}석)\n`;
   }
 
-  let totalAmount = appleSauce();
-
-  result += `총액: ${usd(totalAmount)}\n`;
+  result += `총액: ${usd(appleSauce())}\n`;
   result += `적립 포인트: ${totalVolumeCredits()}점\n`;
   return result;
 }
